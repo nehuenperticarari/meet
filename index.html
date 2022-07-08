@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;700&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header container">
+
+        <div class="header__logo">
+            <a href="index.html">
+                <picture>
+                    <source srcset="./build/img/logo.avif" type="image/avif">
+                    <source srcset="./build/img/logo.webp" type="image/webp">
+                    <img class="header__img" loading="lazy" src="./build/img/logo.png" alt="logo">
+                </picture>
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <a class="navbar__link navbar__link--create" href="#">Create group</a>
+            <a class="navbar__link" href="#">Sign Up</a>
+            <a class="navbar__link" href="#">Register</a>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <h1 class="hero__title">Find a group for what you like</h1>
+        <a class="hero__link" href="#">Get an account</a>
+    </section>
+
+    <section class="search">
+        <h2 class="search__title">Search a gruop in your city</h2>
+
+        <div class="container">
+            <form class="form">
+                <select class="form__field" name="" id="">
+                    <option value="">Developer</option>
+                    <option value="">Design</option>
+                    <option value="">Buisness</option>
+                    <option value="">Fashion</option>
+                    <option value="">exercise and health</option>
+                    <option value="">Photography</option>
+                    <option value="">Food</option>
+                    <option value="">Interior design</option>
+                    <option value="">Coffe</option>
+                    <option value="">Cinema</option>
+                    <option value="">Books</option>
+                    <option value="">Entrepreneurship</option>
+                </select>
+                <input class="form__field" type="text" placeholder="Event Name">
+                <input class="form__field" type="text" placeholder="City">
+                <input class="form__submit" type="submit" value="Search group">
+
+            </form>
+        </div>
+    </section>
+
+    <main class="events container">
+        <h2 class="events__title">Next Events</h2>
+        <div class="events__grid">
+
+            <div class="event">
+                <a href="meet.html">
+                    <picture>
+                        <source srcset="./build/img/img1.avif" type="image/avif">
+                        <source srcset="./build/img/img1.webp" type="image/webp">
+                        <img class="event__img" loading="lazy" src="./build/img/img1.jpg" alt="event">
+                    </picture>
+                    <div class="event__content">
+                        <p class="event__date">Thursday April 15, 2022</p>
+                        <h3 class="event__name">Company management</h3>
+
+                        <div class="event__author">
+                            <div class="event__author-img">
+                                <picture>
+                                    <source srcset="./build/img/perfil1.avif" type="image/avif">
+                                    <source srcset="./build/img/perfil1.webp" type="image/webp">
+                                    <img loading="lazy" src="./build/img/perfil1.jpg" alt="author">
+                                </picture>
+                            </div>
+                            <div class="event__author-info">
+                                <p class="event__organized-text">Organized by:</p>
+                                <p class="event__organized-name">Steve Jhonson</p>
+                            </div>
+                        </div>
+
+                    </div><!--end event-content  -->
+
+                </a>
+            </div><!-- end -->
+
+            <div class="event">
+                <a href="meet.html">
+                    <picture>
+                        <source srcset="./build/img/img2.avif" type="image/avif">
+                        <source srcset="./build/img/img2.webp" type="image/webp">
+                        <img class="event__img" loading="lazy" src="./build/img/img2.jpg" alt="event">
+                    </picture>
+                    <div class="event__content">
+                        <p class="event__date">Thursday April 25, 2022</p>
+                        <h3 class="event__name">Investment</h3>
+
+                        <div class="event__author">
+                            <div class="event__author-img">
+                                <picture>
+                                    <source srcset="./build/img/perfil2.avif" type="image/avif">
+                                    <source srcset="./build/img/perfil2.webp" type="image/webp">
+                                    <img loading="lazy" src="./build/img/perfil2.jpg" alt="author">
+                                </picture>
+                            </div>
+                            <div class="event__author-info">
+                                <p class="event__organized-text">Organized by:</p>
+                                <p class="event__organized-name">Gerard Jhonson</p>
+                            </div>
+                        </div>
+
+                    </div><!--end event-content  -->
+
+                </a>
+            </div><!-- end -->
+
+            <div class="event">
+                <a href="meet.html">
+                    <picture>
+                        <source srcset="./build/img/img3.avif" type="image/avif">
+                        <source srcset="./build/img/img3.webp" type="image/webp">
+                        <img class="event__img" loading="lazy" src="./build/img/img3.jpg" alt="event">
+                    </picture>
+                    <div class="event__content">
+                        <p class="event__date">Thursday April 30, 2022</p>
+                        <h3 class="event__name">Cook pizza</h3>
+
+                        <div class="event__author">
+                            <div class="event__author-img">
+                                <picture>
+                                    <source srcset="./build/img/perfil1.avif" type="image/avif">
+                                    <source srcset="./build/img/perfil1.webp" type="image/webp">
+                                    <img  loading="lazy" src="./build/img/perfil1.jpg" alt="author">
+                                </picture>
+                            </div>
+                            <div class="event__author-info">
+                                <p class="event__organized-text">Organized by:</p>
+                                <p class="event__organized-name">Steve Jhonson</p>
+                            </div>
+                        </div>
+
+                    </div><!--end event-content  -->
+
+                </a>
+            </div><!-- end -->
+
+        </div>
+    </main>
+
+    <section class="categories">
+        <h2 class="categories__title">Categories</h2>
+
+        <ul class="categories__grid container">
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria1.avif" type="image/avif">
+                    <source srcset="./build/img/categoria1.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria1.jpg" alt="category">
+                </picture>
+                <p class="category__name">Developer</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria2.avif" type="image/avif">
+                    <source srcset="./build/img/categoria2.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria2.jpg" alt="category">
+                </picture>
+                <p class="category__name">Design</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria3.avif" type="image/avif">
+                    <source srcset="./build/img/categoria3.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria3.jpg" alt="category">
+                </picture>
+                <p class="category__name">Buisness</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria4.avif" type="image/avif">
+                    <source srcset="./build/img/categoria4.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria4.jpg" alt="category">
+                </picture>
+                <p class="category__name">Fashion</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria5.avif" type="image/avif">
+                    <source srcset="./build/img/categoria5.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria5.jpg" alt="category">
+                </picture>
+                <p class="category__name">Exercise and Health</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria6.avif" type="image/avif">
+                    <source srcset="./build/img/categoria6.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria6.jpg" alt="category">
+                </picture>
+                <p class="category__name">Photography</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria7.avif" type="image/avif">
+                    <source srcset="./build/img/categoria7.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria7.jpg" alt="category">
+                </picture>
+                <p class="category__name">Food</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria8.avif" type="image/avif">
+                    <source srcset="./build/img/categoria8.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria8.jpg" alt="category">
+                </picture>
+                <p class="category__name">Interior design</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria9.avif" type="image/avif">
+                    <source srcset="./build/img/categoria9.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria9.jpg" alt="category">
+                </picture>
+                <p class="category__name">Coffe</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria10.avif" type="image/avif">
+                    <source srcset="./build/img/categoria10.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria10.jpg" alt="category">
+                </picture>
+                <p class="category__name">Cinema</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria11.avif" type="image/avif">
+                    <source srcset="./build/img/categoria11.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria11.jpg" alt="category">
+                </picture>
+                <p class="category__name">Books</p>
+            </li><!-- end -->
+
+            <li class="category">
+                <picture>
+                    <source srcset="./build/img/categoria12.avif" type="image/avif">
+                    <source srcset="./build/img/categoria12.webp" type="image/webp">
+                    <img class="category__img" loading="lazy" src="./build/img/categoria12.jpg" alt="category">
+                </picture>
+                <p class="category__name">Entrepreneurship</p>
+            </li><!-- end -->
+            
+        </ul>
+
+    </section>
+
+    <section class="groups">
+        <div class="groups__grid container">
+            <div class="group__block">
+                <h3 class="groups__title">Create a gruop</h3>
+                <p class="groups__text">Share what you like or your passion with others, create your own group and events; today at no cost</p>
+            </div>
+
+            <div class="groups__block">
+                <h3 class="groups__title">Join a gruop</h3>
+                <p class="groups__text">Meet people with your same tastes and passions, join an existing group and attend upcoming events</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <nav class="navbar">
+            <a class="navbar__link navbar__link--create" href="#">Create group</a>
+            <a class="navbar__link" href="#">Sign Up</a>
+            <a class="navbar__link" href="#">Register</a>
+        </nav>
+        <p class="footer__rigths">All rights reserverd.  &#169Nehuen Perticarari 2022</p>
+    </footer>
+
+    <script src="./build/js/main.js"></script>
+</body>
+</html>
+
+
+
